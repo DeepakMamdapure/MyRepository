@@ -43,6 +43,11 @@ public class QuizActivity extends Activity implements OnClickListener {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.quiz);
 
+		initilizeVariables();
+	}
+
+	private void initilizeVariables() {
+		// TODO Auto-generated method stub
 		butAnswer = (Button) findViewById(R.id.butAns);
 		butBackQuiz = (Button) findViewById(R.id.butBackQuiz);
 		
