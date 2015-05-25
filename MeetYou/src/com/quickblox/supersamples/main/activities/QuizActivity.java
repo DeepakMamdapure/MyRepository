@@ -35,6 +35,8 @@ public class QuizActivity extends Activity implements OnClickListener {
 	
 	private Button butAnswer;
 	private Button butBackQuiz;
+	
+	//Deepak changes done
 
 	private static int nubmerOfObject = 0;
 
